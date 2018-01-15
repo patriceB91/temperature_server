@@ -5,6 +5,15 @@
  * 
  * - Update to insert Date Time from script, instead of AUTO in DB to keep exact same time for all probes.
  *
+ *  External config.php file is required. 
+ *  It must contains the following information :
+ * 
+ *      $dbhost = '127.0.0.1';
+ *      $dbuser = 'db_user_name';
+ *      $dbpass = 'db_passwd';
+ *      $dbname = 'home_temp';
+ *      $apikey = 'A secret key that must match the ESP code';
+ * 
  */
 require_once('config.php');
 
